@@ -11,6 +11,7 @@ print welcome;
 
 while (counter <= 20) do
     sum = sum + counter * counter;
+    breakpoint;
     counter = counter + 1;
     endwhile;
 
